@@ -174,7 +174,7 @@
          border border-gray-300
          focus:ring-2 focus:ring-blue-500" />
 
-                    <input type="date"
+           <input type="date"
                         class="w-full
          px-5 py-3
          text-lg
