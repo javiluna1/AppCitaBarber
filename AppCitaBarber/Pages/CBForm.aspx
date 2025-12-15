@@ -20,6 +20,7 @@
     <style>
         body {
             background-image: url(../Static/Images/barbe_fondo.png);
+            
             background-repeat: repeat;
             background-size: auto;
         }
