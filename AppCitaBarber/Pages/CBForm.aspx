@@ -19,8 +19,7 @@
     <style>
         body{
             background-image: url(../Static/Images/barbe_fondo.png);
-            background-repeat: repeat;       /* SE REPITE para llenar todo */
-            background-size: auto;  
+            
         }
     </style>
 
@@ -145,6 +144,8 @@
   Elige tu barbero, selecciona la fecha y la hora, y agenda tu cita sin complicaciones.
 </p>
 
+
+ <div class="px-24 py-12">
 
     <!-- FORMULARIO -->
     <h3 class="text-xl font-semibold text-gray-900 text-center mb-4">
