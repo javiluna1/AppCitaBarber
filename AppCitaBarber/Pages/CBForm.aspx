@@ -17,15 +17,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
 
     <!--Carpeta de Static/CSS-->
-    <style>
-        body {
-            background-image: url(../Static/Images/barbe_fondo.png);
-            
-            background-repeat: repeat;
-            background-size: auto;
-        }
-    </style>
-
+    <link href="../Static/CSS/style.css" rel="stylesheet" />
 </head>
 
 <body>
@@ -121,8 +113,12 @@
         <!-- Epacio vertical -->
         <div class="mt-20 p-4 text-3xl"></div>
 
+
         <!-- CONTENEDOR DEL FORMULARIO -->
-        <div class="mt-12 flex justify-center px-3 sm:px-4">
+        <div class="mt-12 mb-6 flex justify-center px-3 sm:px-4">
+
+            <!--Borde-->
+          
 
             <!-- CARD -->
             <div class="w-full 
@@ -145,6 +141,7 @@
                 Elige tu barbero, selecciona la fecha y la hora, y agenda tu cita sin complicaciones.
                 </p>
 
+                <div class="px-24 py-12">
 
                 <!-- FORMULARIO -->
                 <h3 class="text-xl font-semibold text-gray-900 text-center mb-4">Reserva tu cita
@@ -200,9 +197,28 @@
                         <option>Pedro</option>
                     </select>
 
+                      <!-- COMENTARIOS -->
+       <textarea
+  placeholder="Escribe aquí cualquier comentario adicional..."
+  rows="5"
+  class="w-full
+         px-5 py-4
+         text-lg
+         rounded-xl
+         border-2 border-gray-300
+         bg-gray-100
+         placeholder-gray-600
+         focus:border-blue-500
+         focus:ring-2 focus:ring-blue-500
+         resize-none">
+</textarea>
+
+
+
                     <button class="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 rounded-lg">
-                        Reservar cita ya
+                        Reservar su cita
                     </button>
+                    
                 </div>
             </div>
         </div>

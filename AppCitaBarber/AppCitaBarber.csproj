@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Pages\CBForm.aspx" />
+    <Content Include="Static\CSS\style.css" />
     <Content Include="Static\Images\abc_logo.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
@@ -95,7 +96,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Data\" />
-    <Folder Include="Static\CSS\" />
     <Folder Include="Static\JavaScript\" />
   </ItemGroup>
   <PropertyGroup>
