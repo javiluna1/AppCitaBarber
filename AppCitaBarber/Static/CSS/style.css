@@ -7,9 +7,12 @@
 .barber-border {
     position: relative;
     border-radius: 24px;
-    padding: 7px; /* grosor del borde */
+    padding: 10px;
     background: repeating-linear-gradient( -45deg, #ffffff 0 14px, #0055a4 14px 28px, #ffffff 28px 42px, #ef2b2d 42px 56px );
     box-shadow: 0 12px 28px rgba(0,0,0,.25);
+    width: 100%;
+    max-width: 672px; /* ~max-w-2xl */
+    box-sizing: border-box;
 }
 
     .barber-border::before {
@@ -25,4 +28,7 @@
     .barber-border > * {
         position: relative;
         z-index: 1;
+        /* CLAVE: evita que el contenido tape el borde */
+        width: 100%;
+        box-sizing: border-box;
     }

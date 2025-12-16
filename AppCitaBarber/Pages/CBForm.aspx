@@ -113,43 +113,24 @@
         <!-- Epacio vertical -->
         <div class="mt-20 p-4 text-3xl"></div>
 
-
-        <!-- CONTENEDOR DEL FORMULARIO -->
         <div class="mt-12 mb-6 flex justify-center px-3 sm:px-4">
+            <div class="barber-border">
+                <div class="w-full p-6 sm:p-8">
+                    <p class="bg-gradient-to-r from-black to-gray-700 bg-clip-text text-transparent text-4xl sm:text-5xl font-extrabold text-center">
+                        App Citas Barber
+                    </p>
 
-            <!--Borde-->
-          
+                    <p class="mt-4 max-w-xl text-center text-base sm:text-xl leading-relaxed text-gray-800 mx-auto">
+                        App Citas Barber te ayuda a hacer tus citas de barbería de forma fácil y rápida.
+        Elige tu barbero, selecciona la fecha y la hora, y agenda tu cita sin complicaciones.
+                    </p>
 
-            <!-- CARD -->
-            <div class="w-full 
-            sm:max-w-md 
-            md:max-w-lg 
-            lg:max-w-xl 
-            xl:max-w-2xl
-            bg-white rounded-2xl shadow-lg p-6">
+                    <div class="px-4 sm:px-10 lg:px-24 py-8 sm:py-10 lg:py-12">
+                        <h3 class="text-xl font-semibold text-gray-900 text-center mb-4">Reserva tu cita</h3>
 
-
-                <!--Titulo-->
-                <p class="bg-gradient-to-r from-black to-gray-700
-                bg-clip-text text-transparent
-                text-5xl font-extrabold text-center">
-                    App Citas Barber
-                </p>
-                <!--Descripciom-->
-                <p class="mt-4 max-w-xl text-center text-xl leading-relaxed text-gray-800 mx-auto">
-                    App Citas Barber te ayuda a hacer tus citas de barbería de forma fácil y rápida.
-                Elige tu barbero, selecciona la fecha y la hora, y agenda tu cita sin complicaciones.
-                </p>
-
-                <div class="px-24 py-12">
-
-                <!-- FORMULARIO -->
-                <h3 class="text-xl font-semibold text-gray-900 text-center mb-4">Reserva tu cita
-                </h3>
-
-                <div class="space-y-4">
-                    <input type="text" placeholder="Nombre completo"
-                        class="w-full
+                        <div class="space-y-4">
+                            <input type="text" placeholder="Nombre completo"
+                                class="w-full
          px-5 py-3
          text-lg
          sm:px-4 sm:py-2 sm:text-base
@@ -157,8 +138,8 @@
          border border-gray-300
          focus:ring-2 focus:ring-blue-500" />
 
-                    <input type="tel" placeholder="Número de teléfono"
-                        class="w-full
+                            <input type="tel" placeholder="Número de teléfono"
+                                class="w-full
          px-5 py-3
          text-lg
          sm:px-4 sm:py-2 sm:text-base
@@ -166,8 +147,8 @@
          border border-gray-300
          focus:ring-2 focus:ring-blue-500" />
 
-                    <input type="date"
-                        class="w-full
+                            <input type="date"
+                                class="w-full
          px-5 py-3
          text-lg
          sm:px-4 sm:py-2 sm:text-base
@@ -175,8 +156,8 @@
          border border-gray-300
          focus:ring-2 focus:ring-blue-500" />
 
-                    <input type="time"
-                        class="w-full
+                            <input type="time"
+                                class="w-full
          px-5 py-3
          text-lg
          sm:px-4 sm:py-2 sm:text-base
@@ -184,41 +165,40 @@
          border border-gray-300
          focus:ring-2 focus:ring-blue-500" />
 
-                    <select class="w-full
+                            <select class="w-full
          px-5 py-3
          text-lg
          sm:px-4 sm:py-2 sm:text-base
          rounded-lg
          border border-gray-300
          focus:ring-2 focus:ring-blue-500">
-                        <option selected disabled>Selecciona un barbero</option>
-                        <option>Juan</option>
-                        <option>Carlos</option>
-                        <option>Pedro</option>
-                    </select>
+                                <option selected disabled>Selecciona un barbero</option>
+                                <option>Juan</option>
+                                <option>Carlos</option>
+                                <option>Pedro</option>
+                            </select>
 
-                      <!-- COMENTARIOS -->
-       <textarea
-  placeholder="Escribe aquí cualquier comentario adicional..."
-  rows="5"
-  class="w-full
-         px-5 py-4
-         text-lg
-         rounded-xl
-         border-2 border-gray-300
-         bg-gray-100
-         placeholder-gray-600
-         focus:border-blue-500
-         focus:ring-2 focus:ring-blue-500
-         resize-none">
-</textarea>
+                            <!-- COMENTARIOS -->
+                            <textarea
+                                placeholder="Escribe aquí cualquier comentario adicional..."
+                                rows="5"
+                                class="w-full
+                                 px-5 py-4
+                                 text-lg
+                                 rounded-xl
+                                 border-2 border-gray-300
+                                 bg-gray-100
+                                 placeholder-gray-600
+                                 focus:border-blue-500
+                                 focus:ring-2 focus:ring-blue-500
+                                 resize-none">
+                        </textarea>
 
-
-
-                    <button class="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 rounded-lg">
-                        Reservar su cita
-                    </button>
-                    
+                            <button class="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 rounded-lg">
+                                Reservar su cita
+                            </button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
